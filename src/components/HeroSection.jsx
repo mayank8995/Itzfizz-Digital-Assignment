@@ -79,7 +79,7 @@ export default function HeroSection() {
         </div>
         <img
           ref={visualRef}
-          src="/sports-car.svg"
+          src={`${import.meta.env.BASE_URL}sports-car.svg`}
           alt="rocket"
           className="absolute top-[15vh] left-0  will-change-transform"
         />
